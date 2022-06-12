@@ -1,0 +1,78 @@
+p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  color: grey;
+}
+
+.card__section {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid grey;
+  /* border-bottom: 0; */
+}
+
+.card {
+  cursor: pointer;
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: 30px 1fr 1fr 1fr 30px;
+  gap: 2rem;
+}
+
+.card__btn {
+  all: unset;
+  cursor: pointer;
+  margin-left: auto;
+  transition: transform 0.6s ease;
+}
+
+.rotate {
+  transform: rotate(180deg);
+}
+.card__title {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  color: #000;
+  display: inline;
+}
+.card__info_icon {
+  margin-left: 0.2rem;
+}
+
+.card__content {
+  overflow: hidden;
+  transition: max-height 0.6sec ease;
+  max-height: 0;
+  padding: 0 4rem;
+}
+
+.card__text {
+  font-size: 14px;
+  padding: 16px;
+}
+
+.card__content_table {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 1rem 0;
+}
+
+.card__content_table p {
+  padding-top: 1rem;
+}
+
+.content__bottom {
+  padding: 1rem 0;
+}
+
+.content__bottom div {
+  display: grid;
+  grid-template-columns: auto 30px;
+  border-bottom: 1px solid gray;
+  margin-bottom: 1rem;
+}
+
+.content__bottom h6 {
+  padding: 0.5rem 0;
+}

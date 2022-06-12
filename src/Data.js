@@ -1,0 +1,101 @@
+const contentData = {
+  heading: {
+    title: "Empfehlung",
+    data: "Ein langer Handlungstext kann hier angezeigt werden. Dafur ist hier ausreichend Platz.",
+  },
+  table: {
+    head1: "Langbezeichnung",
+    value1: "ENCEPUR FSPR 0,25%ML KIND",
+    head2: "Pharmazentralnummer",
+    value2: "3658 701",
+    head3: "ATC-Code",
+    value3: "P1908",
+    head4: "Wirkstoffe",
+    value4: "FSME,inaktiviert, ganzes Virus",
+    head5: "Freigabezeitpunkt",
+    value5: "17, September 2017 um 10:20 Uhr",
+    head6: "Impfdatum",
+    value6: "01, Mar 2001 um 09:20 Uhr",
+    head7: "Impfsetting",
+    value7: "ImpfstraBe",
+    head8: "Verantwortliche Person",
+    value8: "Dr. Frank Hummel Mozartgasse 1-/5350 St Wolfgang Salzbur",
+    head9: "Impfende Person",
+    value9: "Dr. sabine Hummel",
+  },
+  bottom: {
+    heading: "Bisherige Eintrage",
+    row1: "17.09.2016 Impfstoff: ENCEPUR FSPR 0,25ml KIND, Dosis: 2",
+    row2: "17.05.2015 Impfstoff: ENCEPUR FSPR 0,25ml KIND, Dosis: 1",
+  },
+};
+
+const Data = [
+  {
+    id: 1,
+    icon: "alert",
+    title: "Poliomyelitis(KinderLahmung)",
+    description: "Vereinbaren Sie einen Termin - Impfung uberfalling.",
+    date: "24.10.2022-05.12.2022",
+    content: contentData,
+  },
+  {
+    id: 2,
+    icon: "pending",
+    title: "Tetanus(Wundstarrrkrampf",
+    description: "Vereinbaren Sie einen Termin - Impfung bald falling.",
+    date: "24.10.2022-05.12.2022",
+    content: contentData,
+  },
+  {
+    id: 3,
+    icon: "pending",
+    title: "Pertussis(Keuchhusten)",
+    description: "Vereinbaren Sie einen Termin - Impfung bald falling.",
+    date: "24.10.2022-05.12.2022",
+    content: contentData,
+  },
+  {
+    id: 4,
+    icon: "pending",
+    title: "Hepatitis B",
+    description: "Vereinbaren Sie einen Termin - Impfung uberfalling.",
+    date: "24.10.2022-05.12.2022",
+    content: contentData,
+  },
+  {
+    id: 5,
+    icon: "check",
+    title: "Diphtherie",
+    description: "Derzeit keine Handlung erforderlich.",
+    date: "24.10.2022-05.12.2022",
+    content: contentData,
+  },
+  {
+    id: 6,
+    icon: "check",
+    title: "Rotaviren",
+    description: "Derzeit keine Handlung erforderlich.",
+    date: "24.10.2022-05.12.2022",
+    content: contentData,
+  },
+  {
+    id: 7,
+    icon: "check",
+    title: "Masern",
+    description: "Keine weitere Impfung erforderlich.",
+    date: "24.10.2022-05.12.2022",
+    content: contentData,
+  },
+  {
+    id: 8,
+    icon: "questionmark",
+    title: "SARS_CoV-2(Corona)",
+    description:
+      "Empfohlene impfung, Keine Daten erfasst. Vareinbaren Sie gegebenfalls einen Termin.",
+    date: "24.10.2022-05.12.2022",
+    content: contentData,
+  },
+];
+
+export default Data;

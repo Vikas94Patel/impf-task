@@ -1,0 +1,63 @@
+.table__container p {
+  color: #fff;
+}
+.table__container {
+  margin: 1rem 0;
+}
+
+.table__row1 {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 0.1rem;
+}
+
+.table__personinfo {
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: #003a68;
+  padding: 1rem;
+  border-radius: 1rem 0 0 0;
+  padding-top: 1.3rem;
+}
+
+.table__search {
+  display: grid;
+  grid-template-columns: 30px auto;
+  background-color: #003a68;
+  padding: 0.8rem;
+  border-radius: 0 1rem 0 0;
+}
+
+.table__search input {
+  background-color: #003a68;
+}
+
+.table__row2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 0.1rem;
+  margin-top: 0.1rem;
+}
+
+.table__row2_left {
+  background-color: #337ab7;
+  display: grid;
+  grid-template-columns: auto 30px;
+  padding: 1rem;
+  border-radius: 0 0 0 1rem;
+}
+.table__row2_middle {
+  background-color: #337ab7;
+  padding: 1rem;
+}
+
+.table__row2_right {
+  background-color: #337ab7;
+  padding: 1rem;
+  border-radius: 0 0 1rem 0;
+}
+
+::placeholder {
+  color: white;
+  opacity: 0.8;
+}
