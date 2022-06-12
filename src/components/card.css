@@ -8,7 +8,6 @@ p {
   display: flex;
   flex-direction: column;
   border: 1px solid grey;
-  /* border-bottom: 0; */
 }
 
 .card {
@@ -75,4 +74,21 @@ p {
 
 .content__bottom h6 {
   padding: 0.5rem 0;
+}
+
+/* ********************** MEDIA QUERIES (SMALL DEVICES) ******************* */
+@media screen and (max-width: 600px) {
+  .card__section {
+    display: flex;
+    flex-direction: rows;
+    border: 1px solid grey;
+  }
+
+  .card {
+    cursor: pointer;
+    padding: 0.5rem;
+    display: grid;
+    /* grid-template-rows: 30px 1fr 1fr 1fr 30px; */
+    gap: 1rem;
+  }
 }

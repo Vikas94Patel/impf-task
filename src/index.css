@@ -19,3 +19,11 @@ body {
 code {
   font-family: "Open Sans", "Courier New", monospace;
 }
+
+/* ********************** MEDIA QUERIES (SMALL DEVICES) ******************* */
+@media screen and (max-width: 700px) {
+  body {
+    margin: 0.1rem;
+    width: fit-content;
+  }
+}
