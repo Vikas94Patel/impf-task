@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/impf-task/static/css/main.13352c8d.css",
+    "main.js": "/impf-task/static/js/main.3ccf5118.js",
+    "static/media/impfpass_logo.png": "/impf-task/static/media/impfpass_logo.7ad123324c7a20cc0e32.png",
+    "index.html": "/impf-task/index.html",
+    "main.13352c8d.css.map": "/impf-task/static/css/main.13352c8d.css.map",
+    "main.3ccf5118.js.map": "/impf-task/static/js/main.3ccf5118.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.13352c8d.css",
+    "static/js/main.3ccf5118.js"
+  ]
+}
